@@ -1,0 +1,29 @@
+column_name,data_type
+id,integer
+company_name,character varying
+website,character varying
+industry,character varying
+founded,integer
+domain,character varying
+description,character varying
+locality,character varying
+employee_count,integer
+updated_at,timestamp without time zone
+follower_count,integer
+company_size_code,character varying
+company_type_code,character varying
+country_code,character varying
+industry_codes,ARRAY
+ticker,character varying
+universal_name,character varying
+square_logo_url,text
+square_logo_url_internal,uuid
+created_at,timestamp without time zone
+specialty_ids,ARRAY
+parent_id,integer
+industry_code,integer
+max_snapshot_id,bigint
+country_iso,text
+similar_company_ids,ARRAY
+affiliated_company_ids,ARRAY
+employee_profile_ids,ARRAY

@@ -1,0 +1,5 @@
+column_name,data_type
+id,integer
+code,text
+label,text
+alt_labels,ARRAY

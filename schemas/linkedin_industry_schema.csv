@@ -1,0 +1,8 @@
+column_name,data_type
+id,integer
+name,character varying
+group,character varying
+created_at,timestamp without time zone
+updated_at,timestamp without time zone
+alt_names,ARRAY
+company_count,integer

@@ -1,0 +1,45 @@
+column_name,data_type
+id,bigint
+job_id,bigint
+job_slug,text
+created_at,timestamp without time zone
+updated_at,timestamp without time zone
+posted_date,date
+posted_time,time without time zone
+posted_timestamp,timestamp without time zone
+posted_tsrange,tsrange
+title_id,integer
+title,text
+linkedin_company_id,integer
+company_name,text
+company_universal_name,text
+location_geo_id,integer
+location,text
+address_country,text
+address_locality,text
+address_region,text
+postal_code,text
+street_address,text
+latitude,numeric
+longitude,numeric
+applicants,integer
+applicant_range_id,text
+description,text
+linkedin_seniority_level_id,integer
+linkedin_employment_type_id,integer
+job_functions,ARRAY
+industries,ARRAY
+salary_range,text
+salary_currency_id,integer
+salary_min,numeric
+salary_max,numeric
+salary_unit,text
+required_months_of_experience,integer
+academic_qualification,text
+recruiter_profile_id,integer
+recruiter_slug_id,bigint
+apply_external_url,text
+external_job_id,text
+valid_until,timestamp without time zone
+benefit_ids,ARRAY
+closed_since,timestamp without time zone
