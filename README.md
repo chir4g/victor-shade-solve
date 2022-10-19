@@ -14,10 +14,10 @@ ContactOut has decided that they want to learn more about their staff members by
 * Load the data into the database
 
 * Answer the questions:
-- What time is most popular for staff to listen to music
-- Rank of songs by popularity
-- Rank of artists by popularity
-- Most popular song & artist per user
+  - What time is most popular for staff to listen to music
+  - Rank of songs by popularity
+  - Rank of artists by popularity
+  - Most popular song & artist per user
 
 ## Part 2: SQL
 
