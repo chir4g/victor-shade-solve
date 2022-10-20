@@ -1,4 +1,5 @@
 # ContactOut data-engineering challenge
+Please use PHP or python to complete the challenge. For the database, please use MySQL.
 ## Part 1: ETL
 
 ### Description
@@ -9,7 +10,7 @@ ContactOut has decided that they want to learn more about their staff members by
 
 ### Requirements
 ---
-* Look at the logs and song_data and design a schema for the database.
+* Look at the [logs](./data/log_data) and [song_data](./data/song_data) and design a schema for the database.
 
 * Load the data into the database
 
