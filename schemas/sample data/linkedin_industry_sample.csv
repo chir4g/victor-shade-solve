@@ -1,0 +1,151 @@
+id,name,group,created_at,updated_at,alt_names,company_count
+3,Computer Hardware,tech,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Computer Hardware""}",44705
+17,Medical Devices,hlth,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Medical Devices"",""Medical Device"",""Medical Equipment""}",158317
+19,Apparel & Fashion,good,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Apparel & Fashion"",""Apparel and Fashion""}",277123
+20,Sporting Goods,"good, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Sporting Goods""}",52359
+21,Tobacco,good,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Tobacco},14351
+22,Supermarkets,good,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Supermarkets},92977
+24,Consumer Electronics,"good, man",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Consumer Electronics"",""Computers and Electronics""}",94403
+114,Nanotechnology,"gov, man, tech",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,{Nanotechnology},8176
+143,Luxury Goods & Jewelry,good,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Luxury Goods & Jewelry"",""Luxury Goods and Jewelry""}",76568
+145,"Glass, Ceramics & Concrete","cons, man",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Glass, Ceramics & Concrete"",""Glass, Ceramics and Concrete""}",39581
+116,Logistics and Supply Chain,"corp, tran",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Logistics and Supply Chain"",""Logistics & Supply Chain"",""Transportation, Logistics and Storage""}",152166
+29,Gambling & Casinos,rec,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Gambling & Casinos"",""Gambling Facilities and Casinos""}",15844
+88,Individual & Family Services,"org, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Individual & Family Services"",""Individual and Family Services""}",587180
+1678,Savings Institutions,null,2022-02-18T22:45:37.550621,2022-02-18T22:45:37.550621,"{""Savings Institutions""}",0
+49,Building Materials,cons,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Building Materials""}",178291
+679,Oil and Coal Product Manufacturing,null,2022-02-17T18:34:55.203551,2022-02-17T18:34:55.203551,"{""Oil and Coal Product Manufacturing""}",1
+625,Women's Handbag Manufacturing,null,2022-02-17T12:28:20.536027,2022-02-17T12:28:20.536027,"{""Women's Handbag Manufacturing""}",11
+33,Sports,rec,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Sports,""Spectator Sports""}",366574
+41,Banking,fin,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Banking},120798
+139,Mental Health Care,hlth,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Mental Health Care""}",92454
+55,Machinery,man,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Machinery},326186
+53,Automotive,man,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Automotive,""Motor Vehicle Manufacturing""}",460667
+63,Farming,agr,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Farming},252310
+61,Paper & Forest Products,man,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Paper & Forest Products"",""Paper and Forest Product""}",82789
+1504,Interurban and Rural Bus Services,null,2022-02-18T09:45:08.353208,2022-02-18T09:45:08.353208,"{""Interurban and Rural Bus Services""}",9
+62,Railroad Manufacture,man,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Railroad Manufacture"",""Railroad Equipment""}",7951
+117,Plastics,man,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Plastics},99246
+1938,Collection Agencies,null,2022-06-11T13:35:47.024507,2022-06-11T13:35:47.024507,"{""Collection Agencies""}",14
+2060,Family Planning Centers,null,2022-02-18T02:31:27.663095,2022-02-18T02:31:27.663095,"{""Family Planning Centers""}",1
+134,Import and Export,"corp, good, tran",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Import and Export"",""Import & Export""}",96516
+135,Mechanical or Industrial Engineering,"cons, gov, man",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Mechanical or Industrial Engineering"",""Mechanical Or Industrial Engineering"",""Industrial Machinery""}",345235
+50,Architecture & Planning,cons,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Architecture & Planning"",""Architecture and Planning""}",313294
+504,Fruit and Vegetable Preserves Manufacturing,null,2022-04-21T20:50:45.375308,2022-04-22T04:04:16.28933,"{""Fruit and Vegetable Preserves Manufacturing""}",10
+703,Artificial Rubber and Synthetic Fiber Manufacturing,null,2022-04-21T23:38:45.076633,2022-04-22T02:36:08.752263,"{""Artificial Rubber and Synthetic Fiber Manufacturing""}",1
+794,Lime and Gypsum Products Manufacturing,null,2022-04-22T01:31:37.222662,2022-04-22T01:31:37.222662,"{""Lime and Gypsum Products Manufacturing""}",3
+1370,Retail Gasoline,null,2022-04-21T21:08:17.284327,2022-04-22T03:36:51.648892,"{""Retail Gasoline""}",6
+1641,Cable and Satellite Programming,null,2022-04-21T19:35:46.439605,2022-04-21T20:54:33.83177,"{""Cable and Satellite Programming""}",6
+2139,Circuses and Magic Shows,null,2022-02-17T19:05:33.605425,2022-02-17T19:05:33.605425,"{""Circuses and Magic Shows""}",3
+2143,Racetracks,null,2022-04-26T03:52:28.97418,2022-04-26T03:52:28.97418,{Racetracks},7
+1573,Postal Services,null,2022-04-21T19:30:24.951075,2022-04-21T19:30:24.951075,"{""Postal Services""}",10
+2181,Skiing Facilities,null,2022-04-23T05:32:14.714749,2022-04-23T05:32:14.714749,"{""Skiing Facilities""}",9
+1633,Radio and Television Broadcasting,null,2022-04-21T19:25:39.568014,2022-04-21T20:08:37.611593,"{""Radio and Television Broadcasting""}",68
+3095,Oil Extraction,null,2022-06-01T23:45:33.59652,2022-06-01T23:45:33.59652,"{""Oil Extraction""}",7
+1786,Consumer Goods Rental,null,2022-04-21T21:59:43.196821,2022-04-22T06:29:35.236556,"{""Consumer Goods Rental""}",51
+2091,Nursing and Residential Care Facilities,null,2022-02-17T21:59:17.096031,2022-04-22T06:39:30.927522,"{""Nursing and Residential Care Facilities"",""Nursing Homes and Residential Care Facilities""}",121
+2112,Services for the Elderly and Disabled,null,2022-02-18T20:01:07.649393,2022-02-18T20:01:07.649393,"{""Services for the Elderly and Disabled""}",89
+2115,Community Services,null,2022-04-29T06:46:25.243068,2022-04-29T06:46:25.243068,"{""Community Services""}",290
+2122,Emergency and Relief Services,null,2022-04-21T19:37:44.331911,2022-04-22T01:38:56.501998,"{""Emergency and Relief Services""}",46
+2125,Vocational Rehabilitation Services,null,2022-04-28T05:17:22.080723,2022-04-28T05:17:22.080723,"{""Vocational Rehabilitation Services""}",32
+2128,Child Day Care Services,null,2022-04-21T19:28:38.985814,2022-04-21T19:28:38.985814,"{""Child Day Care Services""}",135
+2133,Theater Companies,null,2022-02-17T22:04:42.725958,2022-02-17T22:04:42.725958,"{""Theater Companies""}",28
+28,Entertainment,"med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{Entertainment,""Entertainment Providers""}",333782
+30,"Leisure, Travel & Tourism","rec, serv, tran",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Leisure & Travel"",""Leisure, Travel & Tourism"",""Travel Arrangements""}",278449
+1005,Household Appliance Manufacturing,null,2022-04-22T08:23:28.853681,2022-04-22T08:23:28.853681,"{""Household Appliance Manufacturing""}",17
+31,Hospitality,"rec, serv, tran",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,{Hospitality},480125
+32,Restaurants,"rec, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,{Restaurants},733586
+34,Food & Beverages,"rec, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Food & Beverages"",""Food and Beverage Services""}",417170
+3068,Correctional Institutions,null,2022-04-22T09:26:48.308646,2022-04-22T09:26:48.308646,"{""Correctional Institutions""}",2
+36,Broadcast Media,"med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Broadcast Media"",""Broadcast Media Production and Distribution""}",100252
+37,Museums and Institutions,"art, med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Museums and Institutions"",""Museums & Institutions"",""Museums, Historical Sites, and Zoos""}",50311
+38,Fine Art,"art, med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Fine Art"",""Artists and Writers""}",73628
+39,Performing Arts,"art, med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Performing Arts"",""Performing Arts Companies""}",173117
+40,Recreational Facilities and Services,"rec, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Recreational Facilities and Services"",""Recreational Facilities & Services"",""Recreational Facilities""}",120323
+42,Insurance,fin,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Insurance},342742
+43,Financial Services,fin,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Financial Services""}",689046
+44,Real Estate,"cons, fin, good",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Real Estate"",""Leasing Real Estate""}",1627128
+45,Investment Banking,fin,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Investment Banking"",""Investment Banking/Venture""}",57958
+46,Investment Management,fin,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Investment Management""}",189844
+47,Accounting,"corp, fin",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,{Accounting},393899
+48,Construction,cons,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Construction},1752127
+1611,Movie and Video Distribution,null,2022-04-22T09:15:52.447353,2022-04-22T13:45:54.021498,"{""Movie and Video Distribution""}",57
+51,Civil Engineering,"cons, gov",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Civil Engineering""}",170039
+52,Aviation & Aerospace,"gov, man",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Aviation & Aerospace"",""Aviation and Aerospace Component Manufacturing""}",56194
+54,Chemicals,man,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Chemicals,""Chemical Manufacturing""}",132126
+56,Mining & Metals,man,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Mining & Metals"",Mining}",236839
+57,Oil & Energy,man,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Oil & Energy"",""Oil and Gas""}",203941
+58,Shipbuilding,man,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Shipbuilding},18427
+1,Defense & Space,"gov, tech",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Defense & Space"",""Defense and Space Manufacturing""}",40706
+4,Computer Software,tech,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Computer Software"",""Software Development""}",929237
+5,Computer Networking,tech,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Computer Networking"",""Computer Networking Products""}",37645
+7,Semiconductors,tech,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Semiconductors,""Semiconductor Manufacturing""}",30212
+9,Law Practice,leg,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Law Practice""}",225780
+59,Utilities,man,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Utilities},136607
+60,Textiles,man,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Textiles,""Textile Manufacturing""}",158455
+64,Ranching,agr,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Ranching},57614
+65,Dairy,agr,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Dairy,""Dairy Product Manufacturing""}",30521
+66,Fishery,agr,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Fishery,Fisheries}",17970
+67,Primary/Secondary Education,edu,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Primary/Secondary Education"",Primary/Secondary,""Primary and Secondary Education""}",143546
+68,Higher Education,edu,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Higher Education""}",212694
+69,Education Management,edu,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Education Management"",""Education Administration Programs""}",421910
+70,Research,"edu, gov",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{Research,""Research Services""}",293819
+71,Military,gov,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Military,""Armed Forces""}",21890
+73,Judiciary,"gov, leg",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{Judiciary,""Administration of Justice""}",15454
+74,International Affairs,gov,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""International Affairs""}",24206
+75,Government Administration,gov,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Government Administration""}",148616
+76,Executive Office,gov,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Executive Office"",""Executive Offices""}",70970
+77,Law Enforcement,"gov, leg",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Law Enforcement""}",27219
+78,Public Safety,gov,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Public Safety""}",34613
+79,Public Policy,gov,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Public Policy"",""Public Policy Offices""}",22106
+80,Marketing and Advertising,"corp, med",2017-09-16T04:46:27.148347,2022-04-22T06:02:00.169624,"{""Marketing & Advertising"",""Marketing and Advertising"",""Marketing Services"",""Advertising Services""}",1115747
+81,Newspapers,"med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{Newspapers,""Newspaper Publishing""}",34478
+82,Publishing,"med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{Publishing,""Book and Periodical Publishing""}",218515
+83,Printing,"med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{Printing,""Printing Services""}",143422
+84,Information Services,"med, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Information Services""}",102360
+85,Libraries,"med, rec, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,{Libraries},16192
+89,Religious Institutions,"org, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Religious Institutions""}",138628
+90,Civic & Social Organization,"org, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Civic & Social Organization"",""Civic and Social Organizations""}",386201
+91,Consumer Services,"org, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Consumer Services""}",376544
+92,Transportation/Trucking/Railroad,tran,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Transportation/Trucking/Railroad,""Truck Transportation""}",346565
+93,Warehousing,tran,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Warehousing,""Warehousing and Storage"",""Warehousing and Warehousing""}",38063
+94,Airlines/Aviation,"man, tech, tran",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{Airlines/Aviation,""Airlines and Aviation""}",68092
+95,Maritime,tran,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Maritime,""Maritime Transportation""}",72850
+96,Information Technology and Services,tech,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Information Technology and Services"",""Information Technology & Services"",""IT Services and IT Consulting""}",1538761
+97,Market Research,corp,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Market Research""}",46714
+98,Public Relations and Communications,corp,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Public Relations and Communications"",""Public Relations"",""Public Relations & Communications"",""Public Relations and Communications Services""}",127745
+99,Design,"art, med",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{Design,""Design Services""}",683962
+100,Non-Profit Organization Management,org,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Non-Profit Organization Management"",""Nonprofit Organization Management"",""Non-profit Organization Management"",""Non-profit Organizations""}",290974
+101,Fund-Raising,org,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Fund-Raising,Fundraising}",27512
+102,Program Development,"corp, org",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Program Development"",""Strategic Management Services""}",41871
+103,Writing and Editing,"art, med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Writing and Editing"",""Writing & Editing""}",77891
+72,Legislative Office,"gov, leg",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Legislative Office"",""Legislative Offices""}",1667
+104,Staffing and Recruiting,corp,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Staffing and Recruiting"",""Staffing & Recruiting""}",229657
+105,Professional Training & Coaching,corp,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Professional Training & Coaching"",""Professional Training"",""Professional Training and Coaching"",""Business Skills Training""}",335932
+107,Political Organization,"gov, org",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Political Organization"",""Political Organizations""}",23790
+108,Translation and Localization,"corp, gov, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Translation and Localization"",""Translation & Localization""}",34236
+109,Computer Games,"med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Computer Games""}",54098
+110,Events Services,"corp, rec, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Events Services""}",239119
+111,Arts and Crafts,"art, med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Arts and Crafts"",""Arts & Crafts"",""Retail Art Supplies""}",107945
+112,Electrical/Electronic Manufacturing,"good, man",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Electrical & Electronic Manufacturing"",""Electrical/Electronic Manufacturing"",""Appliances, Electrical, and Electronics Manufacturing""}",441182
+113,Online Media,med,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Online Media"",""Online Publishing"",""Online Audio and Video Media""}",132287
+115,Music,"art, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{Music,Musicians}",181752
+118,Computer & Network Security,tech,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Computer & Network Security"",""Computer and Network Security""}",65733
+119,Wireless,tech,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Wireless,""Wireless Services""}",32578
+120,Alternative Dispute Resolution,"leg, org",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Alternative Dispute Resolution""}",9010
+121,Security and Investigations,"corp, org, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Security and Investigations"",""Security & Investigations""}",114126
+122,Facilities Services,"corp, serv",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Facilities Services""}",264211
+123,Outsourcing/Offshoring,corp,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Outsourcing/Offshoring,""Outsourcing and Offshoring Consulting""}",50375
+124,"Health, Wellness and Fitness","hlth, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Health, Wellness and Fitness"",""Health, Wellness & Fitness"",""Wellness and Fitness Services""}",648929
+125,Alternative Medicine,hlth,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Alternative Medicine""}",31530
+126,Media Production,"med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Media Production""}",233096
+127,Animation,"art, med",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{Animation,""Animation and Post-production""}",32325
+128,Commercial Real Estate,"cons, corp, fin",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Commercial Real Estate"",""Leasing Non-residential Real Estate""}",82918
+129,Capital Markets,fin,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Capital Markets""}",37297
+130,Think Tanks,"gov, org",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Think Tanks""}",30790
+131,Philanthropy,org,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{Philanthropy,""Philanthropic Fundraising Services""}",46128
+132,E-Learning,"edu, org",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{E-learning,E-Learning,""E-Learning Providers""}",219707
+133,Wholesale,good,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,{Wholesale},353036
+136,Photography,"art, med, rec",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,{Photography},185910
+137,Human Resources,corp,2017-09-16T04:46:27.148347,2017-09-16T04:46:27.148347,"{""Human Resources"",""Human Resources Services""}",275198
+138,Business Supplies and Equipment,"corp, man",2017-09-16T04:46:27.148347,2017-09-17T02:28:04.174543,"{""Business Supplies and Equipment"",""Business Supplies & Equipment"",""Retail Office Equipment""}",229355

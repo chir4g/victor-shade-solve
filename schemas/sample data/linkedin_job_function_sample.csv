@@ -1,0 +1,47 @@
+id,code,label,alt_labels
+-1,,None,{None}
+3,cre,Arts and Design,"{""Arts and Design""}"
+4,bd,Business Development,"{""Business Development""}"
+5,css,Community & Social Services,"{""Community & Social Services""}"
+6,cnsl,Consulting,{Consulting}
+7,edu,Education,{Education}
+8,eng,Engineering,{Engineering}
+9,ent,Entrepreneurship,{Entrepreneurship}
+11,med,Healthcare Services,"{""Healthcare Services""}"
+12,hr,Human Resources,"{""Human Resources""}"
+13,it,Information Technology,"{""Information Technology""}"
+14,lgl,Legal,{Legal}
+17,mps,Military & Protective Services,"{""Military & Protective Services""}"
+18,ops,Operations,{Operations}
+20,ppm,Program & Product Management,"{""Program & Product Management""}"
+23,re,Real Estate,"{""Real Estate""}"
+24,acad,Rersearch,{Rersearch}
+25,sale,Sales,{Sales}
+26,supp,Support,{Support}
+2,adm,Administrative,{Administrative}
+10,fin,Finance,{Finance}
+15,mrkt,Marketing,{Marketing}
+21,prch,Purchasing,{Purchasing}
+19,prdm,Product Management,"{""Product Management""}"
+70,advr,Advertising,{Advertising}
+71,anls,Analyst,{Analyst}
+73,cust,Customer Service,"{""Customer Service""}"
+74,dist,Distribution,{Distribution}
+75,dsgn,Design,{Design}
+76,genb,General Business,"{""General Business""}"
+78,mgmt,Management,{Management}
+79,mnfc,Manufacturing,{Manufacturing}
+80,othr,Other,{Other}
+16,pr,Public Relations,"{""Media & Communications"",""Public Relations""}"
+81,prjm,Project Management,"{""Project Management""}"
+82,prod,Production,{Production}
+22,qa,QualityAssurance,"{""Quality Assurance"",QualityAssurance}"
+83,rsch,Research,{Research}
+84,sci,Science,{Science}
+86,supl,Supply Chain,"{""Supply Chain""}"
+87,trng,Training,{Training}
+77,hcpr,HealthCare Provider,"{""HealthCare Provider"",""Health Care Provider""}"
+1,acct,Accounting,"{""Accounting / Auditing"",Accounting/Auditing}"
+72,art,Art / Creative,"{""Art / Creative"",Art/Creative}"
+85,stra,Strategy / Planning,"{""Strategy / Planning"",Strategy/Planning}"
+88,wrt,Writing / Editing,"{""Writing / Editing"",Writing/Editing}"
