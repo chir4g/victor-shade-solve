@@ -67,10 +67,215 @@
 * **Answer the questions:**
     * Please refer to the same [jupyter notebook](eda.ipynb)
 
-* **Explanation Recording:**
+* **E[xplanation Recording](https://drive.google.com/drive/folders/1rXP6txtH5Eiy4CjmlLH_jHwD1vBCXCvx?usp=sharing)**
 
 
 
 ## Part-2 SQL
-* **Explanation Recording**
+* **[Explanation Recording](https://drive.google.com/drive/folders/1rXP6txtH5Eiy4CjmlLH_jHwD1vBCXCvx?usp=sharing)**
+
+* Kindly run the following commands:
+```sql
+SELECT
+    company_name, industries, title, salary_range, posted_date, job_functions
+FROM linkedin_jobs_sample
+WHERE salary_range is NOT NULL;
+
+SELECT * FROM linkedin_industry_sample;
+
+ALTER TABLE linkedin_jobs_sample ADD COLUMN industries_names TEXT;
+ALTER TABLE linkedin_jobs_sample ADD COLUMN job_function_names TEXT;
+
+
+SELECT company_name,
+       industries_names as industries,
+       title, salary_range, posted_date,
+       job_function_names as job_functions
+       FROM linkedin_jobs_sample
+WHERE salary_range is NOT NULL;
+```
+
+* RIGHT After this let's run the following procedures
+
+```sql
+DROP PROCEDURE IF EXISTS getIndustryNames;
+CREATE PROCEDURE getIndustryNames()
+    BEGIN
+        DECLARE finished INTEGER DEFAULT 0;
+        DECLARE industry_names_array VARCHAR(200) DEFAULT '';
+
+        DECLARE industries_array TEXT DEFAULT '';
+        DECLARE const_industries_array TEXT DEFAULT '';
+        DECLARE single_id TEXT DEFAULT '';
+        DECLARE single_industry TEXT DEFAULT '';
+
+
+        DECLARE cur_linkedin_jobs_sample
+            CURSOR FOR
+                SELECT industries FROM linkedin_jobs_sample;
+        #WHERE id = 498714606;
+
+        DECLARE CONTINUE HANDLER FOR NOT FOUND SET finished = 1;
+
+        OPEN cur_linkedin_jobs_sample;
+        #####1
+        #SELECT '1';
+        #####
+        getIndustries: LOOP
+            FETCH cur_linkedin_jobs_sample INTO industries_array;
+            FETCH cur_linkedin_jobs_sample INTO const_industries_array;
+
+            #####1-1-2
+            #SELECT const_industries_array;
+            #####
+
+            IF finished = 1 THEN
+                LEAVE getIndustries;
+            END IF;
+
+            SET industries_array = SUBSTRING(industries_array,2,length(industries_array)-2);
+            #{4,5,6}
+            #4,5,6 <= 2(4) to 6
+
+
+            SET industry_names_array = '';
+            #####1-1-3
+            SELECT industries_array as above_loop;
+            #####
+            WHILE industries_array != '' DO
+                SET single_id = SUBSTRING_INDEX(industries_array, ',', 1); #4
+                ###1-1-4
+                #SELECT single_id;
+                ###
+
+                SET single_industry = (SELECT name FROM linkedin_industry_sample WHERE id = single_id);
+
+                ###1-1-5
+                #SELECT single_industry;
+                ###
+
+                SET industry_names_array = CONCAT(single_industry, ',', industry_names_array);
+
+                ###1-1-5
+                #SELECT industry_names_array;
+
+
+                IF LOCATE(',', industries_array) > 0 THEN
+                    SET industries_array = SUBSTRING(industries_array, LOCATE(',', industries_array) + 1);
+                ELSE
+                    SET industries_array = '';
+                END IF;
+
+            END WHILE;
+
+            UPDATE linkedin_jobs_sample
+                SET industries_names = industry_names_array
+            WHERE linkedin_jobs_sample.industries = const_industries_array;
+#               WHERE linkedin_jobs_sample.industries = industries_array;
+
+
+
+        end loop getIndustries;
+
+END;
+```
+
+```sql
+DROP PROCEDURE IF EXISTS getJobNames;
+CREATE PROCEDURE getJobNames()
+    BEGIN
+        DECLARE finished INTEGER DEFAULT 0;
+        DECLARE job_names_array VARCHAR(200) DEFAULT '';
+
+        DECLARE jobs_array TEXT DEFAULT '';
+        DECLARE const_jobs_array TEXT DEFAULT '';
+        DECLARE single_id TEXT DEFAULT '';
+        DECLARE single_job TEXT DEFAULT '';
+
+
+        DECLARE cur_linkedin_jobs_sample
+            CURSOR FOR
+                SELECT job_functions FROM linkedin_jobs_sample;
+        #WHERE id = 498714606;
+
+        DECLARE CONTINUE HANDLER FOR NOT FOUND SET finished = 1;
+
+        OPEN cur_linkedin_jobs_sample;
+        #####1
+        SELECT '1';
+        #####
+        getJobs: LOOP
+            FETCH cur_linkedin_jobs_sample INTO jobs_array;
+            FETCH cur_linkedin_jobs_sample INTO const_jobs_array;
+
+            #####1-1-2
+            SELECT const_jobs_array;
+            #####
+
+            IF finished = 1 THEN
+                LEAVE getJobs;
+            END IF;
+
+            SET jobs_array = SUBSTRING(jobs_array,2,length(jobs_array)-2);
+            SET job_names_array = '';
+            #####1-1-3
+            SELECT jobs_array as above_loop;
+            #####
+            WHILE jobs_array != '' DO
+                SET single_id = SUBSTRING_INDEX(jobs_array, ',', 1);
+                ###1-1-4
+                SELECT single_id;
+                ###
+
+                SET single_job = (SELECT name FROM linkedin_industry_sample WHERE id = single_id);
+
+                ###1-1-5
+                SELECT single_job;
+                ###
+
+                SET job_names_array = CONCAT(single_job, ',', job_names_array);
+
+                ###1-1-5
+                SELECT job_names_array;
+
+
+                IF LOCATE(',', jobs_array) > 0 THEN
+                    SET jobs_array = SUBSTRING(jobs_array, LOCATE(',', jobs_array) + 1);
+                ELSE
+                    SET jobs_array = '';
+                END IF;
+
+            END WHILE;
+
+            UPDATE linkedin_jobs_sample
+                SET job_function_names = job_names_array
+            WHERE linkedin_jobs_sample.job_functions = const_jobs_array;
+#               WHERE linkedin_jobs_sample.industries = industries_array;
+
+
+
+        end loop getJobs;
+
+END;
+```
+
+Once those procedures are ran, let's call them
+
+```sql
+CALL getIndustryNames();
+CALL getJobNames();
+```
+
+Run this command to see the final results
+```
+
+SELECT company_name,
+       industries_names as industries,
+       title, salary_range, posted_date,
+       job_function_names as job_functions
+       FROM linkedin_jobs_sample
+WHERE salary_range is NOT NULL;
+```
+
+[Final results can also be found here](results/sql_query_result.csv)
 
