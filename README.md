@@ -1,7 +1,7 @@
 # ContactOut data-engineering challenge
 
 ## Part-1 ETL
-* **Look at the [logs](./data/log_data) and [song_data](./data/song_data) and design a schema for the database.**
+* **Look at the [log_data](./data/log_data) and [song_data](./data/song_data) and design a schema for the database.**
     * [Schema Diagram can be viewed here](https://dbdiagram.io/d/63568eb3fa2755667d5d8c58)
     * Following conventions for db and tables are used: 
         * Database : contactout
@@ -53,7 +53,7 @@
             * | contactout.logs | contactout.songs |
                 |----|-----|
                 |artist|artist_name|
-                |legnth|duration|
+                |length|duration|
                 |song|title|
             
             * artist_name,title together can identify rows uniqely in contactout.songs(an artist can have multiple songs, multiple artists can have same song name, so only the pair (artist_name,title) happens to be unique)
